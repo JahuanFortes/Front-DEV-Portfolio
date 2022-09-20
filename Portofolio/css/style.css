@@ -1,0 +1,60 @@
+body{
+    margin: 1px;
+    overflow: hidden;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+a{
+    text-decoration: dotted;
+    text-decoration: underline;
+
+}
+
+a:hover{
+    color: tomato;
+}
+
+a :visited{
+    color: purple;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+/*header*/
+.header{
+    text-align: center;
+    background-color: white;
+    color: black;
+    overflow: hidden;
+    padding: 60px;
+    margin: auto;
+
+
+}
+
+/*nav bar*/
+.nav{
+    align-items: center;
+    padding: 20px;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 70px;
+    background-color: gray;
+}
+/*content*/
+.content{
+    
+    
+}
+/*posts*/
+.card{
+    color: white;
+    align-items: center;
+    display: flex;
+}
+/*footer*/
