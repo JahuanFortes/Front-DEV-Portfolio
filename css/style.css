@@ -18,6 +18,7 @@
   --bg-nav: rgb(71, 71, 71);
   --nav-hover: rgb(190, 187, 187);
 
+  --footer-text: rgb(255, 255, 255);
   --footer-bg: rgb(44, 44, 44);
 }
 
@@ -36,6 +37,7 @@
   --bg-nav: #fafaff;
   --nav-hover: rgb(190, 187, 187);
 
+  --footer-text: #fafaff;
   --footer-bg: rgb(44, 44, 44);
 }
 
@@ -76,6 +78,14 @@ section {
   padding: 1rem;
 }
 
+.img {
+  padding-left: 41rem;
+  margin: 0px;
+  max-width: 5%;
+  max-height: 30%;
+  justify-content: center;
+}
+
 /*#region Text*/
 h2 {
   padding: 20px;
@@ -99,11 +109,6 @@ article {
   margin: 0rem;
   padding: 0.25rem;
   text-align: center;
-}
-
-/*logo*/
-.logo {
-  background-color: var(--bg-logo);
 }
 
 /*#region Navbar*/
@@ -222,7 +227,6 @@ article {
 .skill-level {
   padding-right: 6px;
 }
-/*#endregion*/
 
 @keyframes progressBar {
   0% {
@@ -237,21 +241,19 @@ article {
 .category-title {
   margin-bottom: 5px;
 }
+/*#endregion*/
 
-.image {
-  max-width: 20%;
-}
-
-/*Footer*/
+/*#region Footer*/
 footer {
-  color: var(--text-color);
+  color: var(--footer-text);
   background-color: var(--footer-bg);
   overflow: hidden;
   margin-left: 5rem;
   padding: 1.5rem;
 }
+/*#endregion */
 
-/*Small screen*/
+/*#region Small screen*/
 @media only screen and (max-width: 600px) {
   .navbar {
     bottom: 0;
@@ -294,10 +296,18 @@ footer {
   footer {
     margin-left: 0;
   }
+
+  .img {
+    padding-left: 0.8rem;
+    margin: 0px;
+    max-width: 5%;
+    max-height: 30%;
+    justify-content: center;
+  }
 }
+/* #endregion */
 
-/*Big screen*/
-
+/*#region Big screen*/
 @media only screen and (min-width: 600px) {
   .navbar {
     top: 0;
@@ -312,4 +322,13 @@ footer {
   .navbar:hover .link-text {
     display: inline;
   }
+
+  .img {
+    padding-left: 41rem;
+    margin: 0px;
+    max-width: 5%;
+    max-height: 30%;
+    justify-content: center;
+  }
 }
+/*#endregion */
