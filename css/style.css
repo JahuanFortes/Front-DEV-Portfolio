@@ -78,14 +78,6 @@ section {
   padding: 1rem;
 }
 
-.img {
-  padding-left: 41rem;
-  margin: 0px;
-  max-width: 5%;
-  max-height: 30%;
-  justify-content: center;
-}
-
 /*#region Text*/
 h2 {
   padding: 20px;
@@ -298,7 +290,7 @@ footer {
   }
 
   .img {
-    padding-left: 0.8rem;
+    padding-left: 0.2rem;
     margin: 0px;
     max-width: 5%;
     max-height: 30%;
