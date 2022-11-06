@@ -109,6 +109,20 @@ article {
   text-align: center;
 }
 
+.img-project img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  height: 45em;
+}
+.img-project iframe {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
 /*#endregion*/
 
 .header {
@@ -255,10 +269,20 @@ article {
 footer {
   color: var(--footer-text);
   background-color: var(--footer-bg);
+  height: 10rem;
   overflow: hidden;
   margin-left: 5rem;
   padding: 1.5rem;
+  color: var(--text-color);
 }
+footer h3 {
+  color: var(--footer-text);
+}
+.footer-text {
+  color: var(--footer-text);
+  text-decoration: underline;
+}
+
 /*#endregion */
 
 /*#region Small screen*/
@@ -303,15 +327,36 @@ footer {
 
   footer {
     margin-left: 0;
+    text-align: center;
+    height: 14em;
   }
 
   .img {
-    padding-left: 3rem;
-    margin: 0px;
+    display: block;
+    padding: 2.6em;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 50rem;
     max-height: 40rem;
     align-items: center;
     overflow: hidden;
+  }
+  .img-project img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 15em;
+    height: 15em;
+  }
+  .img-project iframe {
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    width: 15em;
+    height: 15em;
   }
 }
 /* #endregion */
@@ -333,8 +378,9 @@ footer {
   }
 
   .img {
-    padding-left: 50rem;
-    margin: 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     max-width: 5rem;
     max-height: 30%;
     align-items: center;
